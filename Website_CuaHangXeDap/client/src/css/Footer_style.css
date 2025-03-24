@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+footer {
+    background-color: #1b1e28;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+p, li {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+li span {
+    color: white;
+    font-weight: 400;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    filter: brightness(0) saturate(100%) invert(75%) sepia(100%) saturate(500%) hue-rotate(1deg) brightness(90%) contrast(90%);
+}
+
+.subscribe input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    background-color: #1f8cfb;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subscribe button:hover {
+    background-color: #1477d2;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.highlight {
+    color: #ff4a57;
+    font-weight: 600;
+}
